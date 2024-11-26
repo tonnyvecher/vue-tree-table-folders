@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  color: rgb(56, 36, 64);
+  border: 2px solid #9e6bd7;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #efe2ff;
+  transition: background-color 0.25s;
+  text-align: center;
+}
+button:hover {
+  background-color: #b53fd2;
+  color: white;
+}
